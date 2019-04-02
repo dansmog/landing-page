@@ -152,12 +152,15 @@ header h1{
   margin-top:20px;
   margin-bottom: 20px;
 }
-.about a{
+.about .main, .footer .main{
   padding: 15px 30px;
   background-color:#191299;
   color: #fff;
   border-radius:3px;
   text-decoration:none;
+}
+.remove{
+  background-color: transparent;
 }
 .button-con{
   margin:40px 0;
@@ -198,5 +201,14 @@ header h1{
   }
   .d-flex{
     flex-direction: column;
+  }
+  header h1{
+    font-size: 40px;
+  }
+  .personal-information{
+    flex-direction: column;
+  }
+  .i-dont-know{
+    margin-top: 20px;
   }
 }
