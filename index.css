@@ -34,7 +34,7 @@ h1,h2,h3,h4,h5,h6,li{
   font-family: 'Josefin Sans', sans-serif;
 }
 p,a, span{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .set-apart{
   background-color: yellow;
@@ -135,7 +135,7 @@ header h1{
   margin-left: 50px;
 }
 .information p{
-  font-size: 30px;
+  font-size: 24px;
   line-height: 1.6em;
   font-weight:normal;
 }
@@ -146,18 +146,20 @@ header h1{
   font-size: 40px;
 }
 .about p, .how p, .footer p{
-  font-size: 30px;
+  font-size: 24px;
   line-height: 1.6em;
   font-weight:normal;
   margin-top:20px;
   margin-bottom: 20px;
 }
 .about .main, .footer .main{
-  padding: 15px 30px;
+  padding: 30px 30px;
   background-color:#191299;
   color: #fff;
+  font-size:20px;
   border-radius:3px;
   text-decoration:none;
+  font-weight:bold;
 }
 .remove{
   background-color: transparent;
