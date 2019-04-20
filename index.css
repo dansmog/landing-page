@@ -30,7 +30,7 @@ hr {
   margin: 0;
   padding: 0;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,li{
   font-family: 'Josefin Sans', sans-serif;
 }
 p,a, span{
@@ -121,9 +121,9 @@ header h1{
   height:400px;
 }
 .profile-photo{
-  width:100px;
-  height:100px;
-  border-radius:100%;
+  width:120px;
+  height:190px;
+  border-radius:3px;
   object-fit:cover;
 }
 .personal-information{
@@ -145,7 +145,7 @@ header h1{
 .about h1, .how h1{
   font-size: 40px;
 }
-.about p, .how p{
+.about p, .how p, .footer p{
   font-size: 20px;
   line-height: 1.6em;
   font-weight:normal;
@@ -194,6 +194,10 @@ header h1{
   color: #fff;
   border-radius:3px;
   text-decoration:none;
+}
+
+ul{
+  margin-bottom: 30px;
 }
 @media(max-width:640px){
   .container{
