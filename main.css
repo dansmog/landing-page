@@ -1,0 +1,124 @@
+
+/* Set box-sizing to border-box for all elements */
+html {
+  box-sizing: border-box;
+
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Reset margins and paddings on most elements */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+pre,
+blockquote,
+figure,
+hr {
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,h5,h6,li{
+  font-family: 'Josefin Sans', sans-serif;
+}
+p,a, span{
+  font-family: 'Josefin Sans', sans-serif;
+}
+header{
+  width:100%;
+  background-color: #000;
+  padding:100px 0;
+  border-bottom: 2px solid rgb(0, 198, 254);
+}
+
+header h1{
+  text-align: center;
+  font-size: 40px;
+  color: rgb(0, 198, 254);
+}
+header img{
+  margin:60px 0;
+}
+
+.main{
+  padding: 50px 100px;
+  background-color: rgb(0, 198, 254);
+  color: #fff;
+  text-decoration:none;
+  font-size:26px;
+  width:100%;
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 5px;
+  text-align: center;
+}
+.main:hover{
+  text-decoration: none;
+}
+
+.img-responsive{
+  width:100%;
+  height:auto;
+}
+
+.information p{
+  font-size: 24px;
+  line-height: 1.6em;
+  font-weight:normal;
+}
+
+.about, .how{
+  margin-top: 100px;
+}
+.about h1, .how h1{
+  font-size: 40px;
+}
+.about p, .how p, .footer p{
+  font-size: 24px;
+  line-height: 1.6em;
+  font-weight:normal;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+ul{
+  margin-bottom: 30px !important;
+}
+.set-apart{
+  background-color: yellow;
+  color: #000;
+}
+/* Removes discs from ul */
+ul {
+  list-style: none;
+}
+
+@media(max-width:780px){
+  .main{
+    padding: 25px 50px;
+  }
+}
+@media(max-width:460px){
+  .main{
+    font-size:20px;
+    padding: 20px 25px;
+  }
+  p{
+    font-size: 20px !important;
+  }
+  h1{
+    font-size:24px !important;
+  }
+}
